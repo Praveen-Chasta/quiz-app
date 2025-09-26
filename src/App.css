@@ -1,0 +1,135 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: start;
+}
+
+.app-container {
+  max-width: 700px;
+  margin: 50px auto;
+  font-family: 'Arial', sans-serif;
+  text-align: center;
+}
+
+.quiz-result-card {
+  background: #f0f8ff;
+  border-radius: 16px;
+  padding: 40px 30px;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15);
+  transition: transform 0.3s ease;
+}
+
+.quiz-result-card:hover {
+  transform: translateY(-5px);
+}
+
+.quiz-result-card h2 {
+  font-size: 28px;
+  color: #1976d2;
+  margin-bottom: 20px;
+}
+
+.quiz-result-card p {
+  font-size: 20px;
+  color: #333;
+  margin-bottom: 30px;
+}
+
+.quiz-result-card .score {
+  font-weight: 700;
+  color: #4caf50;
+}
+
+.quiz-result-card .total {
+  font-weight: 700;
+  color: #1976d2;
+}
+
+.retry-btn {
+  background: linear-gradient(135deg, #4cafef, #1976d2);
+  color: white;
+  font-size: 16px;
+  font-weight: 600;
+  padding: 12px 28px;
+  border: none;
+  border-radius: 30px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  box-shadow: 0 4px 10px rgba(25, 118, 210, 0.3);
+}
+
+.retry-btn:hover {
+  background: linear-gradient(135deg, #1976d2, #4cafef);
+  box-shadow: 0 6px 14px rgba(25, 118, 210, 0.5);
+  transform: translateY(-2px);
+}
+
+
+.quiz-container {
+  max-width: 600px;
+  margin: 20px auto;
+  font-family: Arial, sans-serif;
+}
+
+.quiz-question {
+  margin-bottom: 30px;
+  padding: 15px;
+  border: 1px solid #ddd;
+  border-radius: 12px;
+  background: #fafafa;
+}
+
+.quiz-question h2 {
+  font-size: 18px;
+  margin-bottom: 15px;
+  color: #333;
+}
+
+.quiz-options {
+  list-style: none;
+  padding: 0;
+}
+
+.quiz-options li {
+  margin: 10px 0;
+}
+
+.quiz-options label {
+  cursor: pointer;
+  font-size: 16px;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.quiz-options input[type="radio"] {
+  accent-color: #007bff; /* custom color for modern browsers */
+  transform: scale(1.2);
+  cursor: pointer;
+}
+
+
+.submit-btn {
+  background: linear-gradient(135deg, #4cafef, #1976d2);
+  color: white;
+  font-size: 16px;
+  font-weight: 600;
+  padding: 12px 28px;
+  border: none;
+  border-radius: 30px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  box-shadow: 0 4px 10px rgba(25, 118, 210, 0.3);
+}
+
+.submit-btn:hover {
+  background: linear-gradient(135deg, #1976d2, #4cafef);
+  box-shadow: 0 6px 14px rgba(25, 118, 210, 0.5);
+  transform: translateY(-2px);
+}
+
+.submit-btn:active {
+  transform: translateY(1px);
+  box-shadow: 0 3px 8px rgba(25, 118, 210, 0.4);
+}
